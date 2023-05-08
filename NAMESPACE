@@ -1,0 +1,2 @@
+useDynLib(crc32c, .registration = TRUE)
+export(crc32c)
