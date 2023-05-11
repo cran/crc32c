@@ -1,3 +1,26 @@
+2023-05-11  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION (Version, Date): Release 0.0.2
+
+	* src/Makevars.win: Added, with fixed cmake setting
+
+2023-05-10  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION (Version, Date): Roll micro version and date
+
+	* configure: Detect cmake even on the marvel that is macOS
+	* src/Makevars.in: Switched from Makevars, cmake filled in
+	* cleanup: Also remove (now generated) src/Makevars
+
+2023-05-08  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION (Version, Date): Roll micro version and date
+
+	* src/crc32c/CMakeLists.txt: Ensure static libraries are compiled
+	with position independent property set
+
+	* README.md: Add CI, CRAN and Dependcies badges
+
 2023-05-07  Dirk Eddelbuettel  <edd@debian.org>
 
 	* Initial release 0.0.1
