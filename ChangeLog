@@ -1,3 +1,32 @@
+2025-03-25  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION (Version, Date): Release 0.0.3
+
+2025-03-24  Dirk Eddelbuettel  <edd@debian.org>
+
+	* src/crc32c/CMakeLists.txt: Update minimum cmake version to 3.5 (and
+	up to 4.0) to permit build at CRAN under rc of cmake 4.0.0
+
+2024-12-17  Dirk Eddelbuettel  <edd@debian.org>
+
+	* .github/workflows/ci.yaml: Simplify to r-ci with included bootstrap
+
+2024-06-15  Dirk Eddelbuettel  <edd@debian.org>
+
+	* .github/workflows/ci.yaml (jobs): Update to r-ci-setup action
+
+2024-05-18  Dirk Eddelbuettel  <edd@debian.org>
+
+	* README.md: Use tinyverse.netlify.app for dependency badge
+
+2024-01-11  Jeroen Ooms  <jeroenooms@gmail.com>
+
+	* src/Makevars.in: Export CC and CXX to support cross-compilation
+
+2024-01-05  Dirk Eddelbuettel  <edd@debian.org>
+
+	* .github/workflows/ci.yaml (jobs): Update to actions/checkout@v4
+
 2023-05-11  Dirk Eddelbuettel  <edd@debian.org>
 
 	* DESCRIPTION (Version, Date): Release 0.0.2
